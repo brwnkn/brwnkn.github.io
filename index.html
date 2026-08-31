@@ -10,7 +10,7 @@
        This is the text shown in the browser tab.
        Replace "Your Name" with your actual name.
        ================================================================== -->
-  <title>Your Name | Machine Learning Portfolio</title>
+  <title>Brownkaine Forchick | Machine Learning Portfolio</title>
 
   <meta name="description" content="Personal machine learning portfolio." />
 
@@ -33,7 +33,7 @@
        ================================================================== -->
   <header class="navbar">
     <nav class="nav-inner">
-      <a href="#home" class="nav-logo">Your Name</a>
+      <a href="#home" class="nav-logo">Brownkaine Forchick</a>
 
       <button class="nav-toggle" id="navToggle" aria-label="Open menu">
         <span></span><span></span><span></span>
@@ -62,15 +62,13 @@
     <section id="home" class="hero">
       <p class="hero-badge"><span class="badge-dot"></span>Open to internships &amp; collaborations</p>
 
-      <h1 class="hero-title">Your Name</h1>
+      <h1 class="hero-title">Brownkaine Forchick</h1>
 
       <p class="hero-role">Machine Learning Student</p>
 
       <p class="hero-sub">
-        Write 2–3 sentences that summarize who you are and what you work on.
-        For example: "I'm a student focused on machine learning. I build and
-        evaluate models with Python and scikit-learn, and I care about writing
-        clear, reproducible code."
+        I’m a computer science and statistics student focused on machine learning and data-driven problem solving. I am currently building and evaluating predictive models in Python, with a recent team project focused on detecting fraudulent transactions using feature engineering, XGBoost, and SHAP for model explainability.
+
       </p>
 
       <div class="hero-buttons">
@@ -108,40 +106,39 @@
       <div class="about-grid">
         <div class="about-photo">
           <!-- OPTION A (default): initials avatar. Change "YN" to your initials. -->
-          <div class="avatar-circle">YN</div>
+          <div class="avatar-circle">BF</div>
 
           <!-- OPTION B: use a real photo instead.
                1. Put your photo in the assets/ folder (e.g. assets/me.jpg)
                2. Delete the avatar-circle div above
                3. Un-comment the line below:
+          -->
           <img src="assets/me.jpg" alt="Photo of Your Name" class="avatar-photo" />
           -->
         </div>
 
         <div class="about-text">
           <p>
-            Replace this paragraph with your story. Where are you from? What
-            school do you go to? What made you interested in machine learning
-            in the first place?
+            I’m a computer science and statistics student interested in the intersection of machine learning, data science, and finance. My interest in machine learning grew from wanting to use data to understand complex problems and build systems that can make better decisions.
+
           </p>
           <p>
-            Use this second paragraph for what you're working on now and where
-            you want to go. What have you built so far? What do you want to
-            study or become? What problems do you want to solve with ML?
+            I’m currently exploring financial fraud detection through data science and machine learning, including building predictive models with my team. Going forward, I want to conduct research in financial fraud and develop machine learning models that can uncover financial risks and support decision-making in financial markets.
+
           </p>
 
           <div class="quick-facts">
             <div class="fact-card">
               <span class="fact-label">Based in</span>
-              <span class="fact-value">Your City, ST</span>
+              <span class="fact-value">Baltimore, MD</span>
             </div>
             <div class="fact-card">
               <span class="fact-label">School</span>
-              <span class="fact-value">Your School</span>
+              <span class="fact-value">University of Maryland Baltimore County</span>
             </div>
             <div class="fact-card">
               <span class="fact-label">Focus Area</span>
-              <span class="fact-value">e.g. Computer Vision</span>
+              <span class="fact-value">Computer Science and Statistics</span>
             </div>
           </div>
         </div>
@@ -162,6 +159,7 @@
           <h3>Languages</h3>
           <ul class="chip-list">
             <li>Python</li>
+            <li>JavaScript</li>
             <li>SQL</li>
             <li>HTML/CSS</li>
           </ul>
@@ -174,6 +172,17 @@
             <li>NumPy</li>
             <li>scikit-learn</li>
             <li>Matplotlib</li>
+            <li>Seaborn</li>  
+            <li>XGBoost</li>
+            <li>SHAP</li>
+            <li>Feature Engineering</li>
+            <li>Data Preprocessing</li>
+            <li>Classification</li>
+            <li>Model Evaluation</li>
+            <li>Logistic Regression</li>
+            <li>SMOTE</li>
+            <li>RFE</li>
+            <li>Statistical Analysis</li>
           </ul>
         </div>
 
@@ -183,6 +192,9 @@
             <li>Jupyter Notebook</li>
             <li>Google Colab</li>
             <li>Git &amp; GitHub</li>
+            <li>Docker</li>
+            <li>Streamlit</li>
+
           </ul>
         </div>
 
@@ -191,6 +203,9 @@
           <ul class="chip-list">
             <li>Neural Networks</li>
             <li>TensorFlow</li>
+            <li>Deep Learning</li>
+            <li>PyTorch</li>
+            <li>Financial Modeling</li>
           </ul>
         </div>
       </div>
@@ -214,77 +229,29 @@
 
         <!-- ─────────────── PROJECT CARD 1 ─────────────── -->
         <article class="project-card">
-          <h3 class="project-title">Project Title One</h3>
+          <h3 class="project-title">Credit Card Fraud Detection</h3>
           <p class="project-desc">
-            One or two sentences: what problem does this project solve, and what
-            did you do? Example: "Classified iris flowers by species using
-            measurements of their petals and sepals."
+            Developed a credit card fraud detection system that identifies fraudulent transactions while reducing false positives and improving transparency. Compared multiple machine learning models, selected XGBoost, engineered transaction and spending-pattern features, and used SHAP to explain individual predictions.
+
           </p>
 
           <div class="model-card">
-            <div class="model-row"><span class="model-key">Dataset</span><span class="model-val">e.g. Iris (150 samples)</span></div>
-            <div class="model-row"><span class="model-key">Model</span><span class="model-val">e.g. k-Nearest Neighbors</span></div>
-            <div class="model-row"><span class="model-key">Result</span><span class="model-val result">e.g. 96% accuracy</span></div>
+            <div class="model-row"><span class="model-key">Dataset</span><span class="model-val">kartik2112/fraud-detection</span></div>
+            <div class="model-row"><span class="model-key">Model</span><span class="model-val">XGBoost</span></div>
+            <div class="model-row"><span class="model-key">Result</span><span class="model-val result">99.5% accuracy, 57.9% Precision, 66.8% Recall, 62.0% F1-Score</span></div>
           </div>
 
           <ul class="tag-list">
             <li>Python</li>
             <li>scikit-learn</li>
             <li>pandas</li>
+            <li>xgboost</li>
+            <li>SHAP</li> 
+            <li>Explainable AI</li>
           </ul>
 
           <div class="project-links">
-            <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener">View on GitHub</a>
-          </div>
-        </article>
-
-        <!-- ─────────────── PROJECT CARD 2 ─────────────── -->
-        <article class="project-card">
-          <h3 class="project-title">Project Title Two</h3>
-          <p class="project-desc">
-            Describe your second project here. Don't be shy about challenges you
-            hit — "the data was messy and I had to clean it" shows real skill.
-          </p>
-
-          <div class="model-card">
-            <div class="model-row"><span class="model-key">Dataset</span><span class="model-val">Where did the data come from?</span></div>
-            <div class="model-row"><span class="model-key">Model</span><span class="model-val">e.g. Linear Regression</span></div>
-            <div class="model-row"><span class="model-key">Result</span><span class="model-val result">e.g. R² = 0.87</span></div>
-          </div>
-
-          <ul class="tag-list">
-            <li>Python</li>
-            <li>NumPy</li>
-            <li>Matplotlib</li>
-          </ul>
-
-          <div class="project-links">
-            <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener">View on GitHub</a>
-          </div>
-        </article>
-
-        <!-- ─────────────── PROJECT CARD 3 ─────────────── -->
-        <article class="project-card">
-          <h3 class="project-title">Project Title Three</h3>
-          <p class="project-desc">
-            Your third project — maybe a team project? Explain your role if it
-            was a group effort.
-          </p>
-
-          <div class="model-card">
-            <div class="model-row"><span class="model-key">Dataset</span><span class="model-val">e.g. 10k movie reviews</span></div>
-            <div class="model-row"><span class="model-key">Model</span><span class="model-val">e.g. Naive Bayes</span></div>
-            <div class="model-row"><span class="model-key">Result</span><span class="model-val result">e.g. F1 score 0.84</span></div>
-          </div>
-
-          <ul class="tag-list">
-            <li>Python</li>
-            <li>scikit-learn</li>
-            <li>NLP</li>
-          </ul>
-
-          <div class="project-links">
-            <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener">View on GitHub</a>
+            <a href="https://github.com/brwnkn/AI4ALL-Fraud-Detection" target="_blank" rel="noopener">View on GitHub</a>
           </div>
         </article>
 
@@ -304,25 +271,14 @@
           <span class="timeline-date">2026</span>
           <h3>Machine Learning Program or Course</h3>
           <p>
-            The program, bootcamp, or course where you learned ML fundamentals:
-            data cleaning, model training and evaluation, and responsible AI.
-          </p>
+            AI4ALL Summer Program</p>
         </div>
 
         <div class="timeline-item">
-          <span class="timeline-date">20XX</span>
-          <h3>Add a milestone here</h3>
+          <span class="timeline-date">2025 – Present</span>
+          <h3>University of Maryland Baltimore County</h3>
           <p>
-            A class you took, a club you joined, a hackathon, a personal project —
-            anything that's part of your story.
-          </p>
-        </div>
-
-        <div class="timeline-item">
-          <span class="timeline-date">20XX – Present</span>
-          <h3>Your School Name</h3>
-          <p>
-            Your grade/year, favorite subjects, clubs or activities you're part of.
+            Sophomore year,Member of Game Development Club
           </p>
         </div>
       </div>
@@ -344,13 +300,13 @@
       </p>
 
       <a href="mailto:your.email@example.com" class="btn btn-primary contact-btn">
-        your.email@example.com
+        brownkaineforchick0@gmail.com
       </a>
 
       <div class="social-links">
-        <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/brwnkn" target="_blank" rel="noopener">GitHub</a>
         <span class="social-sep">·</span>
-        <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/brownkaine-forchick" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </section>
 
@@ -361,7 +317,7 @@
        EDIT #9 — Put your name here. The year updates automatically.
        ================================================================== -->
   <footer class="footer">
-    <p>© <span id="year"></span> Your Name</p>
+    <p>© <span id="year"></span> BrownKaine Forchick</p>
   </footer>
 
   <script src="js/script.js"></script>
